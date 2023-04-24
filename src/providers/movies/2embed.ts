@@ -33,7 +33,8 @@ class TwoEmbed extends MovieParser {
    *
    * @param tmdbId tmdb id
    * @param type 'movie' or 'tv'
-   * @param server server type (default `Vizcloud`) (optional)
+   * @param season season number
+   * @param episode episode number
    */
   override async fetchEpisodeServers(
     tmdbId: string,
@@ -96,6 +97,14 @@ class TwoEmbed extends MovieParser {
     }
   }
 
+  /**
+   *
+   * @param tmdbId tmdb id
+   * @param type 'movie' or 'tv'
+   * @param season season number
+   * @param episode episode number
+   * @param server server type (default `Vizcloud`) (optional)
+   */
   override async fetchEpisodeSources(
     tmdbId: string,
     type: MediaFormat,
