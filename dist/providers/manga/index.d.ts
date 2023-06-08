@@ -8,6 +8,8 @@ import MangaPill from './mangapill';
 import MangaReader from './mangareader';
 import AsuraScans from './asurascans';
 import FlameScans from './flamescans';
+import MangaHost from './mangahost';
+import BRMangas from './brmangas';
 declare const _default: {
     MangaDex: typeof MangaDex;
     ComicK: typeof ComicK;
@@ -19,5 +21,7 @@ declare const _default: {
     MangaReader: typeof MangaReader;
     AsuraScans: typeof AsuraScans;
     FlameScans: typeof FlameScans;
+    MangaHost: typeof MangaHost;
+    BRMangas: typeof BRMangas;
 };
 export default _default;

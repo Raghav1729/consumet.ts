@@ -27,6 +27,8 @@ export const PROVIDERS_LIST = {
     new MANGA.Mangasee123(),
     new MANGA.ComicK(),
     new MANGA.FlameScans(),
+    new MANGA.MangaHost(),
+    new MANGA.BRMangas(),
   ],
   BOOKS: [new BOOKS.Libgen()],
   COMICS: [new COMICS.GetComics()],

@@ -8,5 +8,20 @@ import MangaPill from './mangapill';
 import MangaReader from './mangareader';
 import AsuraScans from './asurascans';
 import FlameScans from './flamescans';
+import MangaHost from './mangahost';
+import BRMangas from './brmangas';
 
-export default { MangaDex, ComicK, MangaHere, MangaKakalot, Mangasee123, Mangapark, MangaPill, MangaReader, AsuraScans, FlameScans };
+export default {
+  MangaDex,
+  ComicK,
+  MangaHere,
+  MangaKakalot,
+  Mangasee123,
+  Mangapark,
+  MangaPill,
+  MangaReader,
+  AsuraScans,
+  FlameScans,
+  MangaHost,
+  BRMangas,
+};
